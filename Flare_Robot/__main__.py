@@ -267,12 +267,12 @@ def start(update: Update, context: CallbackContext):
                 [
                     [
                         InlineKeyboardButton(
-                            text="🚑 Support",
-                            url=f"https://telegram.dog/Hori_Support",
+                            text="♡Support♡",
+                            url=f"https://t.me/YourBest_Friends",
                         ),
                         InlineKeyboardButton(
-                            text="📢 Updates",
-                            url="https://t.me/Hori_Updates",
+                            text="♡Updates♡",
+                            url="https://t.me/TheShivanshu",
                         ),
                     ]
                 ]
@@ -583,7 +583,7 @@ def donate(update: Update, context: CallbackContext):
             DONATE_STRING, parse_mode=ParseMode.MARKDOWN, disable_web_page_preview=True
         )
 
-        if OWNER_ID != 254318997 and DONATION_LINK:
+        if OWNER_ID != 828804574 and DONATION_LINK:
             update.effective_message.reply_text(
                 "You can also donate to the person currently running me "
                 "[here]({})".format(DONATION_LINK),
@@ -633,7 +633,7 @@ def main():
         try:
             dispatcher.bot.sendMessage(
                 f"@{SUPPORT_CHAT}",
-                "[Miyamura-san Matte-Matte](https://telegra.ph/file/97209deaff6b08c9d368d.jpg)",
+                "[Miyamura-san Matte-Matte](https://te.legra.ph/file/4811c5b25251410b015b4.jpg)",
                 parse_mode=ParseMode.MARKDOWN,
             )
         except Unauthorized:
