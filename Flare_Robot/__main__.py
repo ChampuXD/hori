@@ -78,15 +78,17 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-────『 [Kyouko Hori✿](https://anilist.co/character/66171/Kyouko-Hori) 』[────](https://telegra.ph/file/87fc99fdb207271b9439a.jpg)
-*Hey! {}*
-*I Am a Group Management Bot With a Lots of Advance Features.
-
+────『 [𝕮𝖗𝖚𝖊𝖑𝖑𝖆(◍•ᴗ•◍)✧*] 』[────](https://te.legra.ph/file/cb209c5c0eb14dc6feb4f.jpg)
+●Hey! {}*
+●I Am a Group Management Bot With a Lots of Advance Features.
+●I Am a Music Bot Also You Can Play Songs And Video's in Your Group.
 ❃⋆✦◈──────────────◈✦⋆❃
-➢ *Uptime:* {}
+     🖤ꜱ⃟нͥινͣαͫиѕнυ🖤
 ❃⋆✦◈──────────────◈✦⋆❃
 
-➢ Try The Help Buttons Below To Know My Abilities ××.
+➢ Try The Help Buttons Below To Know My Abilities ♡.
+
+➢ Try The /mstart Buttons To See All Music Bot Commands ♡.
 """
 
 
@@ -97,23 +99,31 @@ buttons = [
         )
     ],
     [
-        InlineKeyboardButton(text="[► Help ◄]", callback_data="help_back"),
+        InlineKeyboardButton(text="[♡ Help ♡]", callback_data="help_back"),
         InlineKeyboardButton(
-            text="► Chit-Chat ◄", url="https://t.me/MyAnimeMania"
+            text="♡ Chit-Chat ♡", url="https://t.me/TheShivanshu"
         ),
-        InlineKeyboardButton(text="[► Inline ◄]", switch_inline_query_current_chat=""),
+        InlineKeyboardButton(text="[♡ Inline ♡]", switch_inline_query_current_chat=""),
     ],
     [
-        InlineKeyboardButton(text="🚑Support", url=f"https://t.me/Hori_Support"),
-        InlineKeyboardButton(text="📡Updates", url="https://t.me/Hori_Updates"),
+        InlineKeyboardButton(text="♡Support♡", url=f"https://t.me/YourBest_Friends"),
+        InlineKeyboardButton(text="♡Updates♡", url="https://t.me/TheShivanshu"),
     ],
-]
+    [      
+        InlineKeyboardButton(text="♡MusicBot♡", url=f"/mstart")
+    ],
+    [
+         InlineKeyboardButton(text="♡Owner♡", url=f"https://t.me/ShivanshuDeo")
+    ],
+
+    ]
 
 
 HELP_STRINGS = """
 Main commands available[.](https://telegra.ph/file/83b00bff39cb132dd3795.jpg)
  ➢ /help: PM's you this message.
  ➢ /help <module name>: PM's you info about that module.
+ ➢ /mstart: Use as Music Bot.
  ➢ /donate: information on how to donate!
  ➢ /settings:
    ❃ in PM: will send you your settings for all supported modules.
@@ -126,8 +136,8 @@ Main commands available[.](https://telegra.ph/file/83b00bff39cb132dd3795.jpg)
 )
 
 HELP_MSG = "Click the button below to get help menu in your pm."
-FLARE_IMG = "https://telegra.ph/file/f84fb03c0ad355d6ceec9.jpg"
-HELP_IMG = "https://telegra.ph/file/28ac5e79824fed33cee19.jpg"
+FLARE_IMG = "https://te.legra.ph/file/4811c5b25251410b015b4.jpg"
+HELP_IMG = "https://te.legra.ph/file/5422c44d99159a2c5ba77.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
 But Kawaii is free for everyone"""
