@@ -11,15 +11,15 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
 from config import PLAYLIST_IMG_URL, PRIVATE_BOT_MODE, adminlist
 from strings import get_string
-from FlareRobot import YouTube, app
-from FlareRobot.misc import SUDOERS
-from FlareRobot.utils.database import (get_cmode, get_lang,
+from Flare_Robot import YouTube, app
+from Flare_Robot.misc import SUDOERS
+from Flare_Robot.utils.database import (get_cmode, get_lang,
                                        get_playmode, get_playtype,
                                        is_active_chat,
                                        is_commanddelete_on,
                                        is_served_private_chat)
-from FlareRobot.utils.database.memorydatabase import is_maintenance
-from FlareRobot.utils.inline.playlist import botplaylist_markup
+from Flare_Robot.utils.database.memorydatabase import is_maintenance
+from Flare_Robot.utils.inline.playlist import botplaylist_markup
 
 
 def PlayWrapper(command):
